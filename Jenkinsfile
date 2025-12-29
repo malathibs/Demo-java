@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git clone') { 
             steps {
-                git branch: 'main', url: 'https://github.com/Shreenivas123/Demo-java.git'
+                git branch: 'main', url: 'https://github.com/malathibs/Demo-java.git'
             }
         }
         stage('Build') { 
