@@ -17,7 +17,7 @@ pipeline {
                 sh 'echo "I am Deploying"'
                 sh '''
                     sudo cp /var/lib/jenkins/workspace/jenkins-pipeline/target/my-java-app-1.0-SNAPSHOT.war \
-                        /home/ec2-user/apache-tomcat-9.0.113/webapps
+                        /home/ec2-user/apache-tomcat-10.1.50/webapps/
                 '''
             }
         }
